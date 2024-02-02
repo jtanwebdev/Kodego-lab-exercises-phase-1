@@ -12,6 +12,7 @@
   padding: 10px 10%;
   overflow: hidden;
   position: relative;
+  height: 100svh;
 }
 nav {
   padding: 10px 0;
@@ -39,7 +40,7 @@ nav ul li a {
   padding: 14px 40px;
   margin-right: 30px;
   font-weight: 400;
-  background-image: linear-gradient(45deg, #df4881, #c430d7);
+  background-image: linear-gradient(45deg, #1973d1, #010280);
   font-size: 14px;
   border-radius: 30px;
   border-top-right-radius: 0;
@@ -69,4 +70,102 @@ nav ul li a {
   position: absolute;
   bottom: 0;
   right: 10%;
+}
+.second-section {
+  height: 100svh;
+  margin-top: 30px;
+  padding: 10px 10%;
+  overflow: hidden;
+  position: relative;
+}
+.second-section h2 {
+  font-size: 30px;
+  color: #222;
+  margin-top: 10%;
+  max-width: 600px;
+}
+.third-section {
+  height: 100svh;
+  margin-top: 0px;
+  padding: 10px 10%;
+  overflow: hidden;
+  position: relative;
+}
+.third-section h2 {
+  font-size: 30px;
+  color: #222;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.third-section h5 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+.card1 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(dota\ 2.webp);
+  background-position: center;
+  background-size: cover;
+}
+.card2 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(books.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.card3 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(basketball.webp);
+  background-position: center;
+  background-size: cover;
+}
+.card4 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(netflix.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-btn {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 40px;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 30px;
+  font-weight: 400;
+  background-image: linear-gradient(45deg, #1973d1, #010280);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  transition: 0.5s;
+}
+.footer-btn:hover {
+  border-top-right-radius: 30px;
 }
