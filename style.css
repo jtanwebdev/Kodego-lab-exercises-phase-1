@@ -66,7 +66,7 @@ nav ul li a {
   border-top-right-radius: 30px;
 }
 .feature-img {
-  width: 530px;
+  width: 500px;
   position: absolute;
   bottom: 0;
   right: 10%;
@@ -111,7 +111,7 @@ nav ul li a {
   padding: 15px 25px;
   cursor: pointer;
   margin: 10px 15px;
-  background-image: url(dota\ 2.webp);
+  background-image: url(./Media/dota\ 2.webp);
   background-position: center;
   background-size: cover;
 }
@@ -123,7 +123,7 @@ nav ul li a {
   padding: 15px 25px;
   cursor: pointer;
   margin: 10px 15px;
-  background-image: url(books.jpeg);
+  background-image: url(./Media/books.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -135,7 +135,7 @@ nav ul li a {
   padding: 15px 25px;
   cursor: pointer;
   margin: 10px 15px;
-  background-image: url(basketball.webp);
+  background-image: url(./Media/basketball.webp);
   background-position: center;
   background-size: cover;
 }
@@ -147,7 +147,7 @@ nav ul li a {
   padding: 15px 25px;
   cursor: pointer;
   margin: 10px 15px;
-  background-image: url(netflix.jpg);
+  background-image: url(./Media/netflix.jpg);
   background-position: center;
   background-size: cover;
 }
